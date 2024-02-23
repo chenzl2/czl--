@@ -1,4 +1,4 @@
-# encoding: utf-8
+﻿# encoding: utf-8
 import time
 
 import pytest
@@ -18,6 +18,7 @@ class TestHeard:
         self.driver.init_data(method.__name__)
 
     def test_login(self):
+        # 啊哈哈哈我修改了这块
         self.driver.elem_click('隐私政策-同意')
         self.driver.elem_click('协议')
         self.driver.elem_click('手机号登录')
