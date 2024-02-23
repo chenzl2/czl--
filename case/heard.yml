@@ -1,0 +1,112 @@
+test_login:
+  隐私政策-同意: com.xa.heard:id/btn_success|id
+  协议: com.xa.heard:id/promise_btn|id
+  手机号登录: com.xa.heard:id/bt_phone_login|id
+  手机号: com.xa.heard:id/et_phone|id
+  密码: com.xa.heard:id/et_auth_code|id
+  同意阅读协议: com.xa.heard:id/promise_btn|id
+  登录按钮: com.xa.heard:id/bt_login|id
+  小学版: 听见时代-小学版|text
+  同意获取WIFI设备位置: com.xa.heard:id/tv_open|id
+  仅使用期间允许: com.android.permissioncontroller:id/permission_allow_foreground_only_button|id
+  不再提示是否绑定微信: android:id/button2|id
+
+test_create_task:
+  我的: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.TextView|xpath
+  创建任务: 创建任务|text
+  任务标题: com.xa.heard:id/edt_task_name|id
+  任务内容: com.xa.heard:id/imageView5|id
+  我的收藏: 我的收藏|text
+  默认分组: com.xa.heard:id/tv_descr|id
+  选中第一个专题: com.xa.heard:id/iv_record_menu_more|id
+  确定: com.xa.heard:id/tv_confirm|id
+  再次确认: com.xa.heard:id/tv_title_bar_right|id
+  选择孩子: com.xa.heard:id/mod_student|id
+  全部孩子: com.xa.heard:id/tv_choose_content|id
+  点击确定: com.xa.heard:id/tv_ensure|id
+  学习要求导语: com.xa.heard:id/edt_learn_text|id
+  发布: com.xa.heard:id/tv_title_bar_right|id
+  返回: com.xa.heard:id/img_title_bar_left|id
+
+test_care_teacher:
+  我的: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.TextView|xpath
+#  我的教师: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.view.ViewGroup/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[5]/android.widget.LinearLayout/android.widget.TextView[1]|xpath
+  我的教师: 我的教师|text
+  添加关注: com.xa.heard:id/tv_title_bar_right|id
+  搜索框: com.xa.heard:id/edt_teacher|id
+  确认搜索: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.TextView|xpath
+  关注: com.xa.heard:id/btn_follow|id
+#  孩子关注: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView|xpath
+  孩子关注: com.xa.heard:id/iv_check|id
+  确定: com.xa.heard:id/tv_open|id
+  返回: com.xa.heard:id/img_title_bar_left|id
+  再次返回: com.xa.heard:id/img_title_bar_left|id
+
+test_add_child:
+  管理: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout[5]/android.widget.LinearLayout/android.widget.ImageView|xpath
+#  家庭管理: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.support.v7.widget.LinearLayoutCompat[3]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1]|xpath
+  家庭管理: 家庭管理|text
+  添加孩子: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.TextView|xpath
+
+  点击头像: com.xa.heard:id/rl_head|id
+  弹窗中选择从相册选择: com.xa.heard:id/tv_menu2|id
+  同意: com.xa.heard:id/tv_open|id
+  允许: com.android.permissioncontroller:id/permission_allow_button|id
+#  选择图片: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.GridView/android.widget.FrameLayout[11]/android.widget.ImageView|xpath
+  选择图片: com.xa.heard:id/ivPicture|id
+#  点击完成: com.xa.heard:id/btn_ok|id
+  点击完成: com.xa.heard:id/menu_crop|id
+  学生姓名: com.xa.heard:id/edt_in_name|id
+  所在学校: com.xa.heard:id/edt_school_name|id
+  所在学段: com.xa.heard:id/tv_s_section|id
+#  请选择学段: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[2]/android.widget.TextView|xpath
+  请选择学段: 高中|text
+  所在年级: com.xa.heard:id/tv_s_grade|id
+#  请选择年级: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[3]/android.widget.TextView|xpath
+  请选择年级: 高三|text
+  所在班级: com.xa.heard:id/tv_s_class|id
+#  请选择班级: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[2]/android.widget.TextView|xpath
+  请选择班级: 六班|text
+  保存: com.xa.heard:id/tv_save|id
+  返回: com.xa.heard:id/iv_back|id
+
+
+test_answer_tinglian_task:
+  首页: 首页|text
+  语文听练: 语文听练|text
+  取消弹窗: com.xa.heard:id/img_close_window|id
+  一年级: com.xa.heard:id/con_goods_bg|id
+  第一单元: 第一单元|text
+  识字1天地人: 识字1 天地人|text
+  基础知识: 基础知识|text
+  手机听练1: com.xa.heard:id/tv_start_phone|id
+  手机听练2: com.xa.heard:id/tv_start|id
+  对: 对|text
+  下一题: 下一题|text
+  单选题: A|text
+  完成: com.xa.heard:id/btn_question_next|id
+  查看解析: com.xa.heard:id/img_normal_analysis|id
+  返回: com.xa.heard:id/img_title_bar_left|id
+
+test_parents_assign_task:
+  布置任务: 布置任务|text
+  选择孩子: com.xa.heard:id/mod_student|id
+  勾选全部孩子: com.xa.heard:id/tv_choose_content|id
+  确定: com.xa.heard:id/tv_ensure|id
+  学习要求导语: com.xa.heard:id/edt_learn_text|id
+  保存: com.xa.heard:id/tv_title_bar_right|id
+  返回: com.xa.heard:id/img_title_bar_left|id
+  最后返回: com.xa.heard:id/fl_back|id
+
+test_see_download_errors:
+  错题巩固: 错题巩固|text
+  下载错题: com.xa.heard:id/iv_add|id
+  同意获取存储权限: 同意|text
+  允许访问媒体: 允许|text
+  确定下载: 确定下载|text
+  完成: 完成|text
+  返回: com.xa.heard:id/img_title_bar_left|id
+
+test_homepage_tinglian_task:
+  待完成: 待完成|text
+  手机听练: //*[@text='手机听练' and @class='android.widget.TextView']|xpath

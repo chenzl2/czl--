@@ -1,0 +1,22 @@
+[2023-12-22 11:37:18] - [INFO] -> 执行方法: elem_click, 参数: (('隐私政策-同意',), {})
+[2023-12-22 11:37:19] - [INFO] -> 执行方法: elem_click, 参数: (('协议',), {})
+[2023-12-22 11:37:21] - [INFO] -> 执行方法: elem_click, 参数: (('手机号登录',), {})
+[2023-12-22 11:37:21] - [INFO] -> 执行方法: elem_send_keys, 参数: (('手机号', '12365498701'), {})
+[2023-12-22 11:37:22] - [INFO] -> 执行方法: elem_send_keys, 参数: (('密码', '123456'), {})
+[2023-12-22 11:37:23] - [INFO] -> 执行方法: elem_click, 参数: (('同意阅读协议',), {})
+[2023-12-22 11:37:24] - [INFO] -> 执行方法: elem_click, 参数: (('登录按钮',), {})
+[2023-12-22 11:37:25] - [INFO] -> 执行方法: elem_click, 参数: (('小学版',), {})
+[2023-12-22 11:37:29] - [INFO] -> 执行方法: elem_click, 参数: (('同意获取WIFI设备位置',), {})
+[2023-12-22 11:37:31] - [INFO] -> 执行方法: elem_click, 参数: (('仅使用期间允许',), {})
+[2023-12-22 11:37:32] - [INFO] -> 执行方法: elem_click, 参数: (('不再提示是否绑定微信',), {})
+[2023-12-22 11:37:38] - [WARNING] -> 方法: elem_click 重试 1 次
+[2023-12-22 11:37:44] - [WARNING] -> 方法: elem_click 重试 2 次
+[2023-12-22 11:37:51] - [WARNING] -> 方法: elem_click 重试 3 次
+[2023-12-22 11:37:52] - [ERROR] -> 三次重试均失败, 测试停止, 异常: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\APP\Appium\Appium-Server\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\APP\Appium\Appium-Server\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\APP\Appium\Appium-Server\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)

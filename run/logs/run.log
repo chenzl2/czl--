@@ -1,0 +1,35 @@
+[2024-02-22 16:39:40] - [INFO] -> 执行方法: elem_click, 参数: (('隐私政策-同意',), {})
+[2024-02-22 16:39:40] - [INFO] -> 执行方法: elem_click, 参数: (('协议',), {})
+[2024-02-22 16:39:42] - [INFO] -> 执行方法: elem_click, 参数: (('手机号登录',), {})
+[2024-02-22 16:39:42] - [INFO] -> 执行方法: elem_send_keys, 参数: (('手机号', '12365498701'), {})
+[2024-02-22 16:39:44] - [INFO] -> 执行方法: elem_send_keys, 参数: (('密码', '123456'), {})
+[2024-02-22 16:39:45] - [INFO] -> 执行方法: elem_click, 参数: (('同意阅读协议',), {})
+[2024-02-22 16:39:45] - [INFO] -> 执行方法: elem_click, 参数: (('登录按钮',), {})
+[2024-02-22 16:39:46] - [INFO] -> 执行方法: elem_click, 参数: (('不再提示是否绑定微信',), {})
+[2024-02-22 16:39:48] - [INFO] -> 执行方法: elem_click, 参数: (('小学版',), {})
+[2024-02-22 16:39:50] - [INFO] -> 执行方法: elem_click, 参数: (('我的',), {})
+[2024-02-22 16:39:54] - [INFO] -> 执行方法: elem_click, 参数: (('创建任务',), {})
+[2024-02-22 16:39:55] - [INFO] -> 执行方法: elem_send_keys, 参数: (('任务标题', '2月f22日陈老师布置的任务'), {})
+[2024-02-22 16:39:56] - [INFO] -> 执行方法: elem_click, 参数: (('任务内容',), {})
+[2024-02-22 16:39:56] - [INFO] -> 执行方法: elem_click, 参数: (('我的收藏',), {})
+[2024-02-22 16:39:57] - [INFO] -> 执行方法: elem_click, 参数: (('默认分组',), {})
+[2024-02-22 16:39:59] - [INFO] -> 执行方法: elem_click, 参数: (('选中第一个专题',), {})
+[2024-02-22 16:40:02] - [INFO] -> 执行方法: elem_click, 参数: (('确定',), {})
+[2024-02-22 16:40:02] - [INFO] -> 执行方法: elem_click, 参数: (('再次确认',), {})
+[2024-02-22 16:40:03] - [INFO] -> 执行方法: elem_click, 参数: (('选择孩子',), {})
+[2024-02-22 16:40:11] - [INFO] -> 执行方法: elem_click, 参数: (('点击确定',), {})
+[2024-02-22 16:40:11] - [INFO] -> 执行方法: elem_click, 参数: (('学习要求导语',), {})
+[2024-02-22 16:40:12] - [INFO] -> 执行方法: elem_click, 参数: (('发布',), {})
+[2024-02-22 16:40:14] - [INFO] -> 执行方法: elem_click, 参数: (('返回',), {})
+[2024-02-22 16:40:14] - [INFO] -> 执行方法: elem_click, 参数: (('待完成',), {})
+[2024-02-22 16:40:20] - [WARNING] -> 方法: elem_click 重试 1 次
+[2024-02-22 16:40:26] - [WARNING] -> 方法: elem_click 重试 2 次
+[2024-02-22 16:40:34] - [WARNING] -> 方法: elem_click 重试 3 次
+[2024-02-22 16:40:34] - [ERROR] -> 三次重试均失败, 测试停止, 异常: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\APP\Appium\Appium-Server\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\APP\Appium\Appium-Server\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\APP\Appium\Appium-Server\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
